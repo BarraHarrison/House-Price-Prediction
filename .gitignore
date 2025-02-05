@@ -1,3 +1,5 @@
 venv/
 housing.csv
 .DS_Store.ipynb_checkpoints/
+.DS_Store
+.ipynb_checkpoints/
