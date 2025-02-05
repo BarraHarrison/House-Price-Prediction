@@ -1,7 +1,7 @@
 # House Price Prediction using ML & Jupyterlabs
 
 ## 📌 Project Overview
-This project predicts house prices using a machine learning model trained on real estate data from California, USA. The dataset contains various features such as location, number of rooms, population, and median income to help predict the median house value.
+This project predicts house prices using a machine learning model trained on real estate data. The dataset contains various features such as location, number of rooms, population, and median income to help predict the median house value.
 
 ## 🛠️ Setup Instructions
 ### 1️⃣ Install Jupyter Lab
@@ -111,4 +111,17 @@ forest.fit(X_train, y_train)
 
 ## 🏆 Conclusion
 This project demonstrates **data exploration, feature engineering, and machine learning modeling** using Jupyter Lab. The Random Forest model provides a strong baseline, and further optimizations can improve accuracy.
+
+## 📚 What I Learned
+During this project, I used several commands for the first time and found similarities with SQL operations used in server-side programming:
+
+- **`data.dropna()`** → This removes missing values from the dataset, similar to `WHERE column IS NOT NULL` in SQL.
+- **`train_test_split()`** → This splits the dataset into training and testing subsets, similar to using `LIMIT` and `OFFSET` in SQL queries to segment data.
+- **`plt.figure()`** → This sets up the figure for visualization, which is akin to structuring query results before displaying them in web applications.
+- **`sns.heatmap()`** → This visualizes correlations between variables, much like using SQL aggregate functions and `GROUP BY` to analyze relationships between different fields.
+- **`pd.get_dummies()`** → This encodes categorical variables into a numerical format, similar to using `CASE WHEN` or `JOIN` operations in SQL to transform categorical data into structured numeric values.
+
+This experience deepened my understanding of how data transformations in Python mirror SQL operations used in backend web development.
+
+
 
